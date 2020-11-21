@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <VersionPrefix>5.0.0</VersionPrefix>
+    <VersionPrefix>5.1.0</VersionPrefix>
     <VersionSuffix>$(VersionSuffix)</VersionSuffix>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
     <AssemblyName>Skclusive.Mobx.StateTree.Proxy</AssemblyName>
     <PackageId>Skclusive.Mobx.StateTree.Proxy</PackageId>
     <RootNamespace>Skclusive.Mobx.StateTree.Proxy</RootNamespace>
@@ -15,7 +15,7 @@
     <RepositoryUrl>https://github.com/skclusive/Skclusive.Mobx.StateTree.Proxy</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Skclusive.Mobx.StateTree" Version="5.0.0" />
+    <PackageReference Include="Skclusive.Mobx.StateTree" Version="5.1.0" />
     <PackageReference Include="ImpromptuInterface" Version="7.0.1" />
   </ItemGroup>
 </Project>
